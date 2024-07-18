@@ -3,7 +3,6 @@ import 'dart:async';
 
 import 'package:http/http.dart' as http;
 
-import 'package:flutter/services.dart';
 import 'package:starxpand/starxpand.dart';
 
 void main() {
@@ -133,7 +132,7 @@ class _MyAppState extends State<MyApp> {
           title: const Text('Plugin example app'),
         ),
         body: Column(children: [
-          TextButton(child: Text('FInd'), onPressed: () => _find()),
+          TextButton(child: const Text('FInd'), onPressed: () => _find()),
           if (printers != null)
             for (var p in printers!)
               ListTile(
