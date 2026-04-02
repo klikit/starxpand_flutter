@@ -1,5 +1,3 @@
-package android
-
 group 'com.ovatu.starxpand'
 version '1.0-SNAPSHOT'
 
